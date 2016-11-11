@@ -1,1 +1,1 @@
-# telychko-easystartinit-nov16-
+# Repository for completing tasks during the courses programme
