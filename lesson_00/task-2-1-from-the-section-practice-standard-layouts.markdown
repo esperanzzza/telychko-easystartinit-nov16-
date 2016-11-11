@@ -1,0 +1,7 @@
+Task 2.1. from the section 'Practice standard layouts'
+------------------------------------------------------
+Each of the orange blocks is at the same distance from the green block independently of the size (dimensions) of the latter.   We may change the size of the green block, but the orange blocks will remain at exactly  the same distance from the latter.
+
+A [Pen](http://codepen.io/esperanzzza/pen/WorKMN) by [veronika](http://codepen.io/esperanzzza) on [CodePen](http://codepen.io/).
+
+[License](http://codepen.io/esperanzzza/pen/WorKMN/license).
