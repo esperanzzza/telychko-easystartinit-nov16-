@@ -1,0 +1,35 @@
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  background: #ee3643;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.wrapper {
+  margin-bottom: 10px;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+aside {
+  float: left;
+  width: 30%;
+  height: 500px;
+  background: #293449;
+}
+.main-content {
+  float: right;
+  width: 69%;
+  height: 500px;
+  background: #32425c;
+}
+.main-footer {
+  background: #ee3643;
+  height: 100px;
+}
