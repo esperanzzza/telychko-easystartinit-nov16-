@@ -1,1 +1,42 @@
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
 
+.main-header {
+  background: #ee3643;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.wrapper {
+  margin-bottom: 10px;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.left-column {
+  float: left;
+  width: 20%;
+  margin-right: 10px;
+  height: 500px;
+  background: #293449;
+}
+.main-content {
+  float: left;
+  width: 58%;
+  height: 500px;
+  background: #ee3643;
+}
+.right-column {
+ float: right;
+ width: 20%;
+ height: 500px;
+ background: #32425c;
+}
+.main-footer {
+  background: #ee3643;
+  height: 100px;
+}
