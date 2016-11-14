@@ -1,0 +1,50 @@
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  background: #ee3643;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.wrapper {
+  margin-bottom: 10px;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+aside {
+  float: left;
+  width: 30%;
+  height: 700px;
+  background: #293449;
+}
+.main-content {
+  padding: 10px;
+  float: right;
+  width: 67%;
+  height: 680px;
+  background: #32425c;
+}
+.row {
+  width: 30%;
+  height: 150px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  background: #ee3643;
+}
+
+.row:nth-child(3n) {
+  float: right;
+  margin-right: 0;
+}
+
+.main-footer {
+  background: #ee3643;
+  height: 100px;
+}
