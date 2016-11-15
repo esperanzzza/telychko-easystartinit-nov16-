@@ -1,1 +1,114 @@
+body {
+font-family: 'Source Sans Pro', sans-serif, 'Arial';
+font-size: 18px;
+line-height: normal;
+background: #fff;
+color: #293449;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #293449;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
 
+.main-header {
+  margin-bottom: 50px;
+}
+.header-image {
+  float: left;
+  width: 188px;
+  height: 193px;
+}
+.header-image img {
+  width: 188px;
+  height: 100%;
+  border: 5px solid #ee3643;
+}
+.topic-intro {
+  float: right;
+  width: 70%;
+  height: 163px;
+  padding: 15px 10px;
+  text-align: center;
+  border: 5px solid #ee3643;
+  background: #fff;
+}
+.topic-intro h2 {
+  font-size: 24px;
+}
+.topic-intro ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.topic-intro li {
+  position: relative;;
+}
+.topic-intro li::before {
+  position: absolute;
+  content: '';
+  width: 40px;
+  height: 3px;
+  background: #ee3643;
+  left: 35%;
+  bottom: 5px;
+}
+.main-content {
+  margin-bottom: 50px;
+}
+.modal-verbs {
+  float: left;
+  width: 70%;
+  height: auto;
+  border-collapse: collapse;
+}
+.modal-verbs td, th {
+  padding: 10px;
+  width: 25%;
+  border: 1px solid #293449;
+}
+.modal-verbs th {
+  background: brown;
+  color: #fff;
+}
+.modal-verbs td {
+  background: lightyellow;
+}
+
+.modal-verbs p {
+  margin: 0;
+  padding: 0;
+}
+.modal-verbs .crossed {
+  text-decoration: line-through;
+}
+.image-content {
+  float: right;
+  width: 197px;
+  height: 255px;
+  padding: 15px;
+  border: 5px solid #ee3643;
+}
+ .image-content img {
+   width: 197px;
+   height: 255px;
+   text-align: center;
+ }
+.main-footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.main-footer img {
+  width: 900px;
+  height: 100%;
+  padding: 15px;
+  border: 5px solid #ee3643;
+}
